@@ -1,0 +1,8 @@
+{
+  "socialLinks": [
+    { "icon": "icon-social-github", "url": "https://github.com/thiagodesouza/" },
+    { "icon": "icon-social-linkedin", "url": "https://www.linkedin.com/in/imthiagodesouza/" },
+    { "icon": "icon-social-instagram", "url": "https://www.instagram.com/thiagodesouza.io/" },
+    { "icon": "icon-social-facebook", "url": "https://www.facebook.com/thiagodesouza.io/" }
+  ]
+}

@@ -1,0 +1,57 @@
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Icons' !important;
+  /* speak: none; */
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menu-home:before {
+  content: "\e900";
+}
+.icon-menu-user:before {
+  content: "\e903";
+}
+.icon-menu-list:before {
+  content: "\e901";
+}
+.icon-menu-contact:before {
+  content: "\e902";
+}
+.icon-social-google-plus:before {
+  content: "\ea8c";
+}
+.icon-social-facebook:before {
+  content: "\ea91";
+}
+.icon-social-instagram:before {
+  content: "\ea92";
+}
+.icon-social-twitter:before {
+  content: "\ea96";
+}
+.icon-social-youtube:before {
+  content: "\ea9d";
+}
+.icon-social-vimeo:before {
+  content: "\eaa1";
+}
+.icon-social-github:before {
+  content: "\eab0";
+}
+.icon-social-npm:before {
+  content: "\eab1";
+}
+.icon-social-linkedin:before {
+  content: "\eac9";
+}
+.icon-social-stackoverflow:before {
+  content: "\ead0";
+}

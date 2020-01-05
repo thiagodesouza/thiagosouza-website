@@ -1,0 +1,58 @@
+/**
+ * Settings
+ */
+:root {
+  --white: #ffffff;
+  --lighter: #eeeeee;
+  --light: #dddddd;
+  --regular: #999999;
+  --dark: #1f1e29;
+  --darker: #14131a;
+  --black: #000000;
+
+  --primary: #22cc99;
+  --secundary: #334455;
+}
+::selection {
+  background-color: var(--secundary);
+  color: var(--lighter);
+}
+
+/**
+ * Fonts
+ */
+@font-face {
+  font-family: 'Ubuntu';
+  src: url("./assets/fonts/Ubuntu-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Icons';
+  src: url('./assets/fonts/Icons.ttf?axnc8') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+/**
+ * Generic
+ */
+* {
+  margin: 0;
+  outline: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+  letter-spacing: 0.7pt;
+}
+html, body {
+  min-height: 100vh;
+}
+body {
+  color: var(--lighter);
+  background-color: var(--darker);
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
